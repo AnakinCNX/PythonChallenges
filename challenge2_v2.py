@@ -1,7 +1,7 @@
-int num1 = input("Please enter a number: ")
+num1 = int(input("Please enter a number: "))
 # This shows the type of num1
 print(type(num1))
-int num2 = input("Please enter another number: ")
+num2 = (input("Please enter another number: "))
 
 avg = (num1 + num2) / 2
 

@@ -1,20 +1,11 @@
 # ask user to input sentence
-sentence = input("Please enter a sentence:")
+sentence = input("Please enter a sentence: ")
 # calculate how many word there are
 
-
 def word_count(str):
-    counts = dict()
     words = str.split()
+    return len(words)
 
-    for word in words:
-        if word in counts:
-            counts[word] += 1
-        else:
-            counts[word] = 1
-
-    return counts
-
-
+numberOfWords = word_count(sentence)
 # print the result
-print(word_count(sentence))
+print(numberOfWords)

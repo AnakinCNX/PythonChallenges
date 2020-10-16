@@ -49,6 +49,12 @@ X = input("Please enter a sentance: ").lower()
 # print output
 ```
 
+## Methods
+
+There are a ton of methods for strings. Learn them [here](https://www.w3schools.com/python/python_ref_string.asp) and keep this list handy.
+
+Sometimes there's not a string method for what you want to do. In these cases, you can sometimes convert the string to a `List` and then use one or more list methods. Learn them [here](https://www.w3schools.com/python/python_ref_list.asp)
+
 ## Testing your code
 
 If the program does not run, read the error message closely. It will usually tell you the line where the error is and what the problem is.

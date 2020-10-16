@@ -48,3 +48,7 @@ X = input("Please enter a sentance: ").lower()
 
 # print output
 ```
+
+## Testing your code
+
+If the program does not run, read the error message closely. It will usually tell you the line where the error is and what the problem is.

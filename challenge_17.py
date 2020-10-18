@@ -1,5 +1,5 @@
 # print odd num only
-# 4 is incorrect below, as you will skip some odd numbers
+# 4 is incorrect below, as you will skip some odd numbers, like 3, 7, 11...
 for num in range(1, 100, 4):
     print(num)
 
@@ -13,12 +13,12 @@ for num in range(1, 100, 4):
 # Therefore:
 # if
 x = 100 % 2
-print(x)
+print("Modulus will be zero for 100 % 2: ", x)
 # x will be 0
 # However:
 # if
 x = 101 % 2
-print(x)
+print("Modulus will not be zero for 101 % 2: ", x)
 # x will not equal 0
 
 # Your program should use the following logic:

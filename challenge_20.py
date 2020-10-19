@@ -11,7 +11,11 @@ num = int(input("Please enter a number: "))
 
 # while num is not equal to 7
 # keep asking for user input
-
+while num != "7":
+    print("Please try again")
+# how to stop infinet loop?
+if num == 7:
+    print("well done")
 # while loop breaks once user input equals 7
 
 # say well done for getting the right number

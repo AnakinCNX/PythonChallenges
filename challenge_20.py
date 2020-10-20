@@ -14,6 +14,9 @@ num = int(input("Please enter a number: "))
 while num != "7":
     print("Please try again")
 # how to stop infinet loop?
+# You can only prevent the program from entering it... or maybe set a timeout.
+
+# What happens when you enter a word for the user input?
 if num == 7:
     print("well done")
 # while loop breaks once user input equals 7

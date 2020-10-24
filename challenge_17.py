@@ -1,6 +1,6 @@
 # print odd num only
 # 4 is incorrect below, as you will skip some odd numbers, like 3, 7, 11...
-for num in range(1, 100, 4):
+for num in range(1, 100, 2):
     print(num)
 
 # a better approach is to learn about modulus

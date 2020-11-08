@@ -1,3 +1,5 @@
+# There are no comments, so I don't know what you are trying to do.
+
 def drawline(p, x):
     for i in range(0, p):
         print(" ", end=" "),
